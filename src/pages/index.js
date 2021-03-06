@@ -21,7 +21,6 @@ export default function Home() {
         fetch('https://raw.githubusercontent.com/UMAprotocol/token-distribution/master/outputs/governance_recipients.json').then(r => r.json())
       ])
 
-      console.log(users)
       setSources({
         users,
         holders,
@@ -34,9 +33,6 @@ export default function Home() {
   }, [])
 
   const search = a => {
-    console.log("SERACHING")
-    console.log(a)
-    
     const out = {}
     for (const s in sources)
       out[s] = sources[s][address] || 0
@@ -49,8 +45,7 @@ export default function Home() {
   }
 
   const renderResult = _ => {
-    const total = Object.values(searchResult).reduce((out, v) => out + v, 0)
-    if (!total)
+    if (!searchAddress)
       return
     return (
       <div>
