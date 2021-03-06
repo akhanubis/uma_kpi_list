@@ -1,0 +1,2 @@
+(self.webpackChunkuma_kpi_list=self.webpackChunkuma_kpi_list||[]).push([[883],{9616:function(u,e,n){"use strict";n.r(e),n.d(e,{default:function(){return i}});var t=n(7294);function i(){return t.createElement("div",null,"404")}}}]);
+//# sourceMappingURL=component---src-pages-404-js-ea15b8d82d9973bd4511.js.map

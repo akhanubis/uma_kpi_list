@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://uma_kpi_list/./src/pages/404.js"],"names":["NotFound"],"mappings":"4KAEe,SAASA,IACtB,OAAO","file":"component---src-pages-404-js-ea15b8d82d9973bd4511.js","sourcesContent":["import React from \"react\"\r\n\r\nexport default function NotFound() {\r\n  return <div>404</div>\r\n}\r\n"],"sourceRoot":""}
