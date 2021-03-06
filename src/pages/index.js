@@ -41,7 +41,7 @@ export default function Home() {
   }
 
   const handleAddress = e => {
-    setAddress((e.target.value || '').toLowerCase())
+    setAddress((e.target.value || '').toLowerCase().trim())
   }
 
   const renderResult = _ => {
