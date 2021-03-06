@@ -1,1 +1,1 @@
-Live at akhanubis.github.io/uma_kpi_list
+Live at https://akhanubis.github.io/uma_kpi_list
